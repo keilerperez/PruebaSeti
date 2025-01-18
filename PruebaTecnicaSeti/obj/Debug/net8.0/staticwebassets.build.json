@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "425e7khpS21ouxhhOcbd4pscdE+GUFWfM0zeRl8OPaw=",
+  "Hash": "l+hlGE+u+rkhyoFb5rMQAWV08VRx9qmuOgmoGGA4vPc=",
   "Source": "PruebaTecnicaSeti",
   "BasePath": "_content/PruebaTecnicaSeti",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }
