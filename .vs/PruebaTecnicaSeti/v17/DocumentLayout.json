@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\GIT\\PruebaTecnicaSeti\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9CE7C362-A859-4773-9502-D4DE85AFB203}|PruebaTecnicaSeti\\PruebaTecnicaSeti.csproj|c:\\git\\pruebatecnicaseti\\pruebatecnicaseti\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{9CE7C362-A859-4773-9502-D4DE85AFB203}|PruebaTecnicaSeti\\PruebaTecnicaSeti.csproj|solutionrelative:pruebatecnicaseti\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{9CE7C362-A859-4773-9502-D4DE85AFB203}|PruebaTecnicaSeti\\PruebaTecnicaSeti.csproj|c:\\git\\pruebatecnicaseti\\pruebatecnicaseti\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9CE7C362-A859-4773-9502-D4DE85AFB203}|PruebaTecnicaSeti\\PruebaTecnicaSeti.csproj|solutionrelative:pruebatecnicaseti\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9CE7C362-A859-4773-9502-D4DE85AFB203}|PruebaTecnicaSeti\\PruebaTecnicaSeti.csproj|c:\\git\\pruebatecnicaseti\\pruebatecnicaseti\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9CE7C362-A859-4773-9502-D4DE85AFB203}|PruebaTecnicaSeti\\PruebaTecnicaSeti.csproj|solutionrelative:pruebatecnicaseti\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CE7C362-A859-4773-9502-D4DE85AFB203}|PruebaTecnicaSeti\\PruebaTecnicaSeti.csproj|c:\\git\\pruebatecnicaseti\\pruebatecnicaseti\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9CE7C362-A859-4773-9502-D4DE85AFB203}|PruebaTecnicaSeti\\PruebaTecnicaSeti.csproj|solutionrelative:pruebatecnicaseti\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{9CE7C362-A859-4773-9502-D4DE85AFB203}|PruebaTecnicaSeti\\PruebaTecnicaSeti.csproj|c:\\git\\pruebatecnicaseti\\pruebatecnicaseti\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9CE7C362-A859-4773-9502-D4DE85AFB203}|PruebaTecnicaSeti\\PruebaTecnicaSeti.csproj|solutionrelative:pruebatecnicaseti\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9CE7C362-A859-4773-9502-D4DE85AFB203}|PruebaTecnicaSeti\\PruebaTecnicaSeti.csproj|c:\\git\\pruebatecnicaseti\\pruebatecnicaseti\\pedidodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,20 +50,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\GIT\\PruebaTecnicaSeti\\PruebaTecnicaSeti\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "PruebaTecnicaSeti\\Properties\\launchSettings.json",
               "ToolTip": "C:\\GIT\\PruebaTecnicaSeti\\PruebaTecnicaSeti\\Properties\\launchSettings.json",
               "RelativeToolTip": "PruebaTecnicaSeti\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACcAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACcAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-01-18T19:48:38.804Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\GIT\\PruebaTecnicaSeti\\PruebaTecnicaSeti\\Dockerfile",
               "RelativeDocumentMoniker": "PruebaTecnicaSeti\\Dockerfile",
@@ -82,7 +82,7 @@
               "RelativeDocumentMoniker": "PruebaTecnicaSeti\\Program.cs",
               "ToolTip": "C:\\GIT\\PruebaTecnicaSeti\\PruebaTecnicaSeti\\Program.cs",
               "RelativeToolTip": "PruebaTecnicaSeti\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-18T16:16:19.216Z",
               "EditorCaption": ""
