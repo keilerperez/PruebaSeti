@@ -1,29 +1,30 @@
-# Usamos una imagen base oficial de .NET 8 SDK para construir la aplicaci�n
+# Consulte https://aka.ms/customizecontainer para aprender a personalizar su contenedor de depuración y cómo Visual Studio usa este Dockerfile para compilar sus imágenes para una depuración más rápida.
+
+# Esta fase se usa cuando se ejecuta desde VS en modo rápido (valor predeterminado para la configuración de depuración)
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
+USER $APP_UID
+WORKDIR /app
+EXPOSE 8080
+EXPOSE 8081
+
+
+# Esta fase se usa para compilar el proyecto de servicio
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
-
-# Establecer el directorio de trabajo
+ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-
-# Copiar el archivo .csproj y restaurar las dependencias
 COPY ["PruebaTecnicaSeti/PruebaTecnicaSeti.csproj", "PruebaTecnicaSeti/"]
-RUN dotnet restore "PruebaTecnicaSeti/PruebaTecnicaSeti.csproj"
-
-# Copiar el resto de los archivos y construir la aplicaci�n
+RUN dotnet restore "./PruebaTecnicaSeti/PruebaTecnicaSeti.csproj"
 COPY . .
 WORKDIR "/src/PruebaTecnicaSeti"
-RUN dotnet publish "PruebaTecnicaSeti.csproj" -c Release -o /app/publish
+RUN dotnet build "./PruebaTecnicaSeti.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
-# Usar una imagen base oficial de .NET 8 Runtime para ejecutar la aplicaci�n
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final
+# Esta fase se usa para publicar el proyecto de servicio que se copiará en la fase final.
+FROM build AS publish
+ARG BUILD_CONFIGURATION=Release
+RUN dotnet publish "./PruebaTecnicaSeti.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=true
 
-# Establecer el directorio de trabajo para el contenedor
+# Esta fase se usa en producción o cuando se ejecuta desde VS en modo normal (valor predeterminado cuando no se usa la configuración de depuración)
+FROM base AS final
 WORKDIR /app
-
-# Copiar los archivos de la aplicaci�n construida
-COPY --from=build /app/publish .
-
-# Exponer el puerto en el que se ejecutar� la API
-EXPOSE 80
-
-# Comando para ejecutar la API
+COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "PruebaTecnicaSeti.dll"]

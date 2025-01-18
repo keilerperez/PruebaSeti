@@ -11,12 +11,16 @@
       "RelativeMoniker": "D:0:0:{9CE7C362-A859-4773-9502-D4DE85AFB203}|PruebaTecnicaSeti\\PruebaTecnicaSeti.csproj|solutionrelative:pruebatecnicaseti\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CE7C362-A859-4773-9502-D4DE85AFB203}|PruebaTecnicaSeti\\PruebaTecnicaSeti.csproj|c:\\git\\pruebatecnicaseti\\pruebatecnicaseti\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CE7C362-A859-4773-9502-D4DE85AFB203}|PruebaTecnicaSeti\\PruebaTecnicaSeti.csproj|solutionrelative:pruebatecnicaseti\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9CE7C362-A859-4773-9502-D4DE85AFB203}|PruebaTecnicaSeti\\PruebaTecnicaSeti.csproj|c:\\git\\pruebatecnicaseti\\pruebatecnicaseti\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9CE7C362-A859-4773-9502-D4DE85AFB203}|PruebaTecnicaSeti\\PruebaTecnicaSeti.csproj|solutionrelative:pruebatecnicaseti\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9CE7C362-A859-4773-9502-D4DE85AFB203}|PruebaTecnicaSeti\\PruebaTecnicaSeti.csproj|c:\\git\\pruebatecnicaseti\\pruebatecnicaseti\\pedidodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9CE7C362-A859-4773-9502-D4DE85AFB203}|PruebaTecnicaSeti\\PruebaTecnicaSeti.csproj|solutionrelative:pruebatecnicaseti\\pedidodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CE7C362-A859-4773-9502-D4DE85AFB203}|PruebaTecnicaSeti\\PruebaTecnicaSeti.csproj|c:\\git\\pruebatecnicaseti\\pruebatecnicaseti\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CE7C362-A859-4773-9502-D4DE85AFB203}|PruebaTecnicaSeti\\PruebaTecnicaSeti.csproj|solutionrelative:pruebatecnicaseti\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,15 +50,28 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\GIT\\PruebaTecnicaSeti\\PruebaTecnicaSeti\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "PruebaTecnicaSeti\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\GIT\\PruebaTecnicaSeti\\PruebaTecnicaSeti\\Properties\\launchSettings.json",
+              "RelativeToolTip": "PruebaTecnicaSeti\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-18T19:48:38.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\GIT\\PruebaTecnicaSeti\\PruebaTecnicaSeti\\Dockerfile",
               "RelativeDocumentMoniker": "PruebaTecnicaSeti\\Dockerfile",
               "ToolTip": "C:\\GIT\\PruebaTecnicaSeti\\PruebaTecnicaSeti\\Dockerfile",
               "RelativeToolTip": "PruebaTecnicaSeti\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-01-18T19:18:04.803Z",
+              "WhenOpened": "2025-01-18T19:34:38.449Z",
               "EditorCaption": ""
             },
             {
@@ -65,9 +82,10 @@
               "RelativeDocumentMoniker": "PruebaTecnicaSeti\\Program.cs",
               "ToolTip": "C:\\GIT\\PruebaTecnicaSeti\\PruebaTecnicaSeti\\Program.cs",
               "RelativeToolTip": "PruebaTecnicaSeti\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T16:16:19.216Z"
+              "WhenOpened": "2025-01-18T16:16:19.216Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -77,13 +95,14 @@
               "RelativeDocumentMoniker": "PruebaTecnicaSeti\\PedidoDto.cs",
               "ToolTip": "C:\\GIT\\PruebaTecnicaSeti\\PruebaTecnicaSeti\\PedidoDto.cs",
               "RelativeToolTip": "PruebaTecnicaSeti\\PedidoDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAqAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T15:42:52.243Z"
+              "WhenOpened": "2025-01-18T15:42:52.243Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "PedidosController.cs",
               "DocumentMoniker": "C:\\GIT\\PruebaTecnicaSeti\\PruebaTecnicaSeti\\Controllers\\PedidosController.cs",
               "RelativeDocumentMoniker": "PruebaTecnicaSeti\\Controllers\\PedidosController.cs",

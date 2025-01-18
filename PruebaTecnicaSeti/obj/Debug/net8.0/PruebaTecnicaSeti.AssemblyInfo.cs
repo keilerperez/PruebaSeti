@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("a600a785-ad58-407d-ae13-d8bf1ff42730")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("PruebaTecnicaSeti")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1fc298d5678dd98e777566f0397f784d01e6582c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2828718528112d3d5cb2abf688553d4f471a4428")]
 [assembly: System.Reflection.AssemblyProductAttribute("PruebaTecnicaSeti")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PruebaTecnicaSeti")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
